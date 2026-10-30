@@ -460,6 +460,19 @@ body {
   box-shadow: 0 0 0 1px #10b981 !important;
 }
 
+/* Button & Accent Contrast in Light Mode */
+[data-theme="light"] .bg-emerald-600,
+[data-theme="light"] .bg-emerald-500,
+[data-theme="light"] .bg-gradient-to-r {
+  color: #ffffff !important;
+}
+
+[data-theme="light"] .bg-emerald-600 *,
+[data-theme="light"] .bg-emerald-500 * {
+  color: #ffffff !important;
+}
+
+
 
 /* ==========================================================================
    PRINT & PDF EXPORT STYLESHEET
